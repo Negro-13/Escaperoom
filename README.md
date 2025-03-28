@@ -1,0 +1,1 @@
+Estamos creando un Escaperoom en nuestra materia de Base de datos I en conjunto con Programacion III, para esto utilizaremos distintos assets y les daremos nuestro propio estilo, apoyandonoes de las bases que tenemos y Godot.
