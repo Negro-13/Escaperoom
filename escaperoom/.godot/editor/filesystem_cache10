@@ -1,8 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1743364122
-character_body_2d.gd::GDScript::3655375073506175203::1743364122::0::1::::<>CharacterBody2D<><>0<>0<><>::
-icon.svg::CompressedTexture2D/CompressedTexture2D::7226067936072058459::1743348324::1743349961::1::::<><><>0<>0<>0b7b07cc2e559660ebee3dc224a66bb8<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-player.gd::GDScript::5942637383989215934::1743363530::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://::1743364529
 ::res://Assets/::1743363919
 ::res://Assets/Soldier/::1743348324
 ::res://Assets/Soldier/Arrow(projectile)/::1743349961
@@ -35,5 +32,7 @@ Soldier-Attack01_Effect.png::CompressedTexture2D/CompressedTexture2D::4082494257
 Soldier-Attack02_Effect.png::CompressedTexture2D/CompressedTexture2D::3065485796235968770::1743348324::1743349961::1::::<><><>0<>0<>8612719d6fff69ee0d400c9f6a5481ec<>res://.godot/imported/Soldier-Attack02_Effect.png-0be04fa3e3d3b28df8e0445ae14beb24.ctex::
 Soldier-Attack03_Effect.png::CompressedTexture2D/CompressedTexture2D::8342611827317458702::1743348324::1743349961::1::::<><><>0<>0<>785069d43466ab6cce1889f887a59039<>res://.godot/imported/Soldier-Attack03_Effect.png-f6602ef5f96479c2a6d490cb6af22009.ctex::
 Soldier.png::CompressedTexture2D/CompressedTexture2D::454002202675003281::1743348324::1743349961::1::::<><><>0<>0<>0c403dec5d40f6013c83eb1c44eb19de<>res://.godot/imported/Soldier.png-def5a89fb18fae535dd11b638693c693.ctex::
-::res://Nodos/::1743364122
-player.tscn::PackedScene::5952215535666089850::1743364140::0::1::::<><><>0<>0<><>::uid://cqwwmteg6oaa5::::res://player.gd<>uid://cdgptfvcglhmw::::res://Assets/Soldier/Soldier/Soldier-Idle.png<>uid://dmbuub25s8u64::::res://Assets/Soldier/Soldier/Soldier-Walk.png
+::res://Nodos/::1743364529
+player.tscn::PackedScene::5952215535666089850::1743364529::0::1::::<><><>0<>0<><>::uid://cqwwmteg6oaa5::::res://Nodos/Player/player.gd<>uid://cdgptfvcglhmw::::res://Assets/Soldier/Soldier/Soldier-Idle.png<>uid://dmbuub25s8u64::::res://Assets/Soldier/Soldier/Soldier-Walk.png
+::res://Nodos/Player/::1743364529
+player.gd::GDScript::5942637383989215934::1743363530::0::1::::<>CharacterBody2D<><>0<>0<><>::
