@@ -1,5 +1,2 @@
-res://character_body_2d.gd
-res://Nodos/personaje.tscn
-res://player.gd
 res://Nodos/player.tscn
-res://Assets/11273370.png
+res://character_body_2d.gd

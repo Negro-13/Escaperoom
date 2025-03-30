@@ -13,7 +13,6 @@ config_version=5
 config/name="Escaperoom"
 run/main_scene="uid://cq2kedaa30sfa"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
 
 [input]
 

@@ -1,6 +1,6 @@
 [gd_scene load_steps=20 format=3 uid="uid://cq2kedaa30sfa"]
 
-[ext_resource type="Script" uid="uid://cqwwmteg6oaa5" path="res://player.gd" id="1_18fk1"]
+[ext_resource type="Script" uid="uid://cqwwmteg6oaa5" path="res://Nodos/player.gd" id="1_18fk1"]
 [ext_resource type="Texture2D" uid="uid://cdgptfvcglhmw" path="res://Assets/Soldier/Soldier/Soldier-Idle.png" id="2_dm8yi"]
 [ext_resource type="Texture2D" uid="uid://dmbuub25s8u64" path="res://Assets/Soldier/Soldier/Soldier-Walk.png" id="3_dm8yi"]
 
