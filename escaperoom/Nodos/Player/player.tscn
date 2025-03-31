@@ -119,7 +119,8 @@ animations = [{
 size = Vector2(15, 19)
 
 [node name="Player" type="CharacterBody2D"]
-position = Vector2(26, 30)
+position = Vector2(2902, 2379)
+scale = Vector2(40.5805, 33.5567)
 script = ExtResource("1_hjfcc")
 move_speed = 200.0
 metadata/_edit_group_ = true
