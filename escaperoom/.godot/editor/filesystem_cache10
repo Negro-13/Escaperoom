@@ -1,38 +1,38 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1743364529
-::res://Assets/::1743363919
-::res://Assets/Soldier/::1743348324
-::res://Assets/Soldier/Arrow(projectile)/::1743349961
-Arrow01(32x32).png::CompressedTexture2D/CompressedTexture2D::3418034104742359662::1743348324::1743349961::1::::<><><>0<>0<>f77c84f89999729ef94312e9906413aa<>res://.godot/imported/Arrow01(32x32).png-6b51c8ee1941286c4554340443b8c579.ctex::
-Arrow01(100x100).png::CompressedTexture2D/CompressedTexture2D::3920113553800707628::1743348324::1743349961::1::::<><><>0<>0<>8e063e8b5a088a01c331f976ab6a1278<>res://.godot/imported/Arrow01(100x100).png-4b780b1990c33517a73f1f15f9d2a34f.ctex::
-::res://Assets/Soldier/Soldier/::1743363935
-Soldier-Attack01.png::CompressedTexture2D/CompressedTexture2D::6916999567170962773::1743348324::1743349961::1::::<><><>0<>0<>48541339ddae47ce52726acd61bba26e<>res://.godot/imported/Soldier-Attack01.png-095f084e315a7bf2a0fec00963c63366.ctex::
-Soldier-Attack02.png::CompressedTexture2D/CompressedTexture2D::4078745481659143555::1743348324::1743349961::1::::<><><>0<>0<>8990d5417b8b053c929a444ccf1a2060<>res://.godot/imported/Soldier-Attack02.png-ea45f78ed794dace907d994a43f6faa7.ctex::
-Soldier-Attack03.png::CompressedTexture2D/CompressedTexture2D::1650007922410430825::1743348324::1743349961::1::::<><><>0<>0<>9f74ddbede375441d5fcae6079df85a2<>res://.godot/imported/Soldier-Attack03.png-0650d5518525ffc3998e5fbce82ed3ea.ctex::
-Soldier-Death.png::CompressedTexture2D/CompressedTexture2D::9151811852136111268::1743348324::1743349961::1::::<><><>0<>0<>a0abd4035f5e45dc81291c0ff3304f44<>res://.godot/imported/Soldier-Death.png-47754ac5f8c1e842b0460e8089c78ac9.ctex::
-Soldier-Hurt.png::CompressedTexture2D/CompressedTexture2D::3801789759031664198::1743348324::1743349961::1::::<><><>0<>0<>e7d6a4d88dcb96c5007f3a2ddf40e629<>res://.godot/imported/Soldier-Hurt.png-5ad88c885d96ccea1c38e4f5af5bfcd7.ctex::
-Soldier-Idle.png::CompressedTexture2D/CompressedTexture2D::4996739144957321090::1743348324::1743349961::1::::<><><>0<>0<>b61d385cfc537dcf34a4284e8b6d05d7<>res://.godot/imported/Soldier-Idle.png-0b80d49d6ccd4ac243d864ea879e9f83.ctex::
-Soldier-Shadow_attack2.png::CompressedTexture2D/CompressedTexture2D::2258470892182913351::1743348324::1743349961::1::::<><><>0<>0<>36868e02d3609f3ef806b7dd6cc599b9<>res://.godot/imported/Soldier-Shadow_attack2.png-b1971527e05c16c7386ca6cd3383272f.ctex::
-Soldier-Walk.png::CompressedTexture2D/CompressedTexture2D::8004842703844686131::1743348324::1743349961::1::::<><><>0<>0<>5e763e96a85f78154aadc3fbd006bc48<>res://.godot/imported/Soldier-Walk.png-f9cfb1d757cc8b8d12ceee4d473f6eea.ctex::
-Soldier.png::CompressedTexture2D/CompressedTexture2D::1438862032841079695::1743348324::1743349961::1::::<><><>0<>0<>bb237774770e4ddffde0aa88ac32b2dd<>res://.godot/imported/Soldier.png-45d25dd4c09a662c7897f59da18e19a2.ctex::
-::res://Assets/Soldier/Soldier/Shadow sprites/::1743349961
-Soldier-Shadow.png::CompressedTexture2D/CompressedTexture2D::2308098079638377609::1743348324::1743349961::1::::<><><>0<>0<>04387e7f53517b2d859165a96e8becfd<>res://.godot/imported/Soldier-Shadow.png-ad72b35ef5c07bebd9034389685a318d.ctex::
-Soldier-Shadow_death.png::CompressedTexture2D/CompressedTexture2D::2732566868232835017::1743348324::1743349961::1::::<><><>0<>0<>4221bc866f37d26b151eb6595828765e<>res://.godot/imported/Soldier-Shadow_death.png-90d56c8a43dee145f74496d016175fc7.ctex::
-::res://Assets/Soldier/Soldier with shadows/::1743349961
-Soldier-Attack01.png::CompressedTexture2D/CompressedTexture2D::421969019684700830::1743348324::1743349961::1::::<><><>0<>0<>4e8026d0cac4acdf448c0a14571c7c7e<>res://.godot/imported/Soldier-Attack01.png-19bc8a4d8139748c62ff97206bf58f2c.ctex::
-Soldier-Attack02.png::CompressedTexture2D/CompressedTexture2D::7902694511731165342::1743348324::1743349961::1::::<><><>0<>0<>85bd3bc2e147d9573afed5d4972f675a<>res://.godot/imported/Soldier-Attack02.png-0a4ab4906ef1b489ae548701e1ad1c55.ctex::
-Soldier-Attack03.png::CompressedTexture2D/CompressedTexture2D::8622041614172181470::1743348324::1743349961::1::::<><><>0<>0<>f15d8da02c3a83d5983b7124d510288b<>res://.godot/imported/Soldier-Attack03.png-193dbf7f98840e3ed4cf3abe64143d38.ctex::
-Soldier-Death.png::CompressedTexture2D/CompressedTexture2D::5616216669330654108::1743348324::1743349961::1::::<><><>0<>0<>69433a6ca0ac7c72d30cf867ecd77625<>res://.godot/imported/Soldier-Death.png-8a48f088c0aca04b51e0416203a6bf9b.ctex::
-Soldier-Hurt.png::CompressedTexture2D/CompressedTexture2D::7282848065046676939::1743348324::1743349961::1::::<><><>0<>0<>accbf9c46425c51ab606e6724f1cce9a<>res://.godot/imported/Soldier-Hurt.png-c12d6e44c332f1c383cdcd24a3251016.ctex::
-Soldier-Idle.png::CompressedTexture2D/CompressedTexture2D::4806060624855952416::1743348324::1743349961::1::::<><><>0<>0<>a0cb4898068f33dfac2cdf7aa3f3d36d<>res://.godot/imported/Soldier-Idle.png-e1489873998a1771559685e74ec5a6fd.ctex::
-Soldier-Walk.png::CompressedTexture2D/CompressedTexture2D::7311511599395715820::1743348324::1743349961::1::::<><><>0<>0<>0637b18c1f4d1c4d399810912ac5627e<>res://.godot/imported/Soldier-Walk.png-65a3fb2848facc2a12fb7879222c1a10.ctex::
-Soldier.png::CompressedTexture2D/CompressedTexture2D::6304223244653195877::1743348324::1743349961::1::::<><><>0<>0<>c7f0039148f7f3e0fe89c03a4f2e422b<>res://.godot/imported/Soldier.png-8e94318e195f2f9c09eb678a2636d72a.ctex::
-::res://Assets/Soldier/Soldier(Split Effects)/::1743349961
-Soldier-Attack01_Effect.png::CompressedTexture2D/CompressedTexture2D::408249425791523607::1743348324::1743349961::1::::<><><>0<>0<>399e358c17dd39b73b6cbd9de1cf529e<>res://.godot/imported/Soldier-Attack01_Effect.png-df8d7d0dcc3b44539ba88e6ad0656031.ctex::
-Soldier-Attack02_Effect.png::CompressedTexture2D/CompressedTexture2D::3065485796235968770::1743348324::1743349961::1::::<><><>0<>0<>8612719d6fff69ee0d400c9f6a5481ec<>res://.godot/imported/Soldier-Attack02_Effect.png-0be04fa3e3d3b28df8e0445ae14beb24.ctex::
-Soldier-Attack03_Effect.png::CompressedTexture2D/CompressedTexture2D::8342611827317458702::1743348324::1743349961::1::::<><><>0<>0<>785069d43466ab6cce1889f887a59039<>res://.godot/imported/Soldier-Attack03_Effect.png-f6602ef5f96479c2a6d490cb6af22009.ctex::
-Soldier.png::CompressedTexture2D/CompressedTexture2D::454002202675003281::1743348324::1743349961::1::::<><><>0<>0<>0c403dec5d40f6013c83eb1c44eb19de<>res://.godot/imported/Soldier.png-def5a89fb18fae535dd11b638693c693.ctex::
-::res://Nodos/::1743364529
-player.tscn::PackedScene::5952215535666089850::1743364529::0::1::::<><><>0<>0<><>::uid://cqwwmteg6oaa5::::res://Nodos/Player/player.gd<>uid://cdgptfvcglhmw::::res://Assets/Soldier/Soldier/Soldier-Idle.png<>uid://dmbuub25s8u64::::res://Assets/Soldier/Soldier/Soldier-Walk.png
-::res://Nodos/Player/::1743364529
-player.gd::GDScript::5942637383989215934::1743363530::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://::1743418935
+::res://Assets/::1743418915
+::res://Assets/Soldier/::1743418915
+::res://Assets/Soldier/Arrow(projectile)/::1743418915
+Arrow01(32x32).png::CompressedTexture2D/CompressedTexture2D::3418034104742359662::1743418915::1743418915::1::::<><><>0<>0<>f77c84f89999729ef94312e9906413aa<>res://.godot/imported/Arrow01(32x32).png-6b51c8ee1941286c4554340443b8c579.ctex::
+Arrow01(100x100).png::CompressedTexture2D/CompressedTexture2D::3920113553800707628::1743418915::1743418915::1::::<><><>0<>0<>8e063e8b5a088a01c331f976ab6a1278<>res://.godot/imported/Arrow01(100x100).png-4b780b1990c33517a73f1f15f9d2a34f.ctex::
+::res://Assets/Soldier/Soldier/::1743418915
+Soldier-Attack01.png::CompressedTexture2D/CompressedTexture2D::6916999567170962773::1743418915::1743418915::1::::<><><>0<>0<>48541339ddae47ce52726acd61bba26e<>res://.godot/imported/Soldier-Attack01.png-095f084e315a7bf2a0fec00963c63366.ctex::
+Soldier-Attack02.png::CompressedTexture2D/CompressedTexture2D::4078745481659143555::1743418915::1743418915::1::::<><><>0<>0<>8990d5417b8b053c929a444ccf1a2060<>res://.godot/imported/Soldier-Attack02.png-ea45f78ed794dace907d994a43f6faa7.ctex::
+Soldier-Attack03.png::CompressedTexture2D/CompressedTexture2D::1650007922410430825::1743418915::1743418915::1::::<><><>0<>0<>9f74ddbede375441d5fcae6079df85a2<>res://.godot/imported/Soldier-Attack03.png-0650d5518525ffc3998e5fbce82ed3ea.ctex::
+Soldier-Death.png::CompressedTexture2D/CompressedTexture2D::9151811852136111268::1743418915::1743418915::1::::<><><>0<>0<>a0abd4035f5e45dc81291c0ff3304f44<>res://.godot/imported/Soldier-Death.png-47754ac5f8c1e842b0460e8089c78ac9.ctex::
+Soldier-Hurt.png::CompressedTexture2D/CompressedTexture2D::3801789759031664198::1743418915::1743418915::1::::<><><>0<>0<>e7d6a4d88dcb96c5007f3a2ddf40e629<>res://.godot/imported/Soldier-Hurt.png-5ad88c885d96ccea1c38e4f5af5bfcd7.ctex::
+Soldier-Idle.png::CompressedTexture2D/CompressedTexture2D::4996739144957321090::1743418915::1743418915::1::::<><><>0<>0<>b61d385cfc537dcf34a4284e8b6d05d7<>res://.godot/imported/Soldier-Idle.png-0b80d49d6ccd4ac243d864ea879e9f83.ctex::
+Soldier-Shadow_attack2.png::CompressedTexture2D/CompressedTexture2D::2258470892182913351::1743418915::1743418915::1::::<><><>0<>0<>36868e02d3609f3ef806b7dd6cc599b9<>res://.godot/imported/Soldier-Shadow_attack2.png-b1971527e05c16c7386ca6cd3383272f.ctex::
+Soldier-Walk.png::CompressedTexture2D/CompressedTexture2D::8004842703844686131::1743418915::1743418915::1::::<><><>0<>0<>5e763e96a85f78154aadc3fbd006bc48<>res://.godot/imported/Soldier-Walk.png-f9cfb1d757cc8b8d12ceee4d473f6eea.ctex::
+Soldier.png::CompressedTexture2D/CompressedTexture2D::1438862032841079695::1743418915::1743418915::1::::<><><>0<>0<>bb237774770e4ddffde0aa88ac32b2dd<>res://.godot/imported/Soldier.png-45d25dd4c09a662c7897f59da18e19a2.ctex::
+::res://Assets/Soldier/Soldier/Shadow sprites/::1743418915
+Soldier-Shadow.png::CompressedTexture2D/CompressedTexture2D::2308098079638377609::1743418915::1743418915::1::::<><><>0<>0<>04387e7f53517b2d859165a96e8becfd<>res://.godot/imported/Soldier-Shadow.png-ad72b35ef5c07bebd9034389685a318d.ctex::
+Soldier-Shadow_death.png::CompressedTexture2D/CompressedTexture2D::2732566868232835017::1743418915::1743418915::1::::<><><>0<>0<>4221bc866f37d26b151eb6595828765e<>res://.godot/imported/Soldier-Shadow_death.png-90d56c8a43dee145f74496d016175fc7.ctex::
+::res://Assets/Soldier/Soldier with shadows/::1743418915
+Soldier-Attack01.png::CompressedTexture2D/CompressedTexture2D::421969019684700830::1743418915::1743418915::1::::<><><>0<>0<>4e8026d0cac4acdf448c0a14571c7c7e<>res://.godot/imported/Soldier-Attack01.png-19bc8a4d8139748c62ff97206bf58f2c.ctex::
+Soldier-Attack02.png::CompressedTexture2D/CompressedTexture2D::7902694511731165342::1743418915::1743418915::1::::<><><>0<>0<>85bd3bc2e147d9573afed5d4972f675a<>res://.godot/imported/Soldier-Attack02.png-0a4ab4906ef1b489ae548701e1ad1c55.ctex::
+Soldier-Attack03.png::CompressedTexture2D/CompressedTexture2D::8622041614172181470::1743418915::1743418915::1::::<><><>0<>0<>f15d8da02c3a83d5983b7124d510288b<>res://.godot/imported/Soldier-Attack03.png-193dbf7f98840e3ed4cf3abe64143d38.ctex::
+Soldier-Death.png::CompressedTexture2D/CompressedTexture2D::5616216669330654108::1743418915::1743418915::1::::<><><>0<>0<>69433a6ca0ac7c72d30cf867ecd77625<>res://.godot/imported/Soldier-Death.png-8a48f088c0aca04b51e0416203a6bf9b.ctex::
+Soldier-Hurt.png::CompressedTexture2D/CompressedTexture2D::7282848065046676939::1743418915::1743418915::1::::<><><>0<>0<>accbf9c46425c51ab606e6724f1cce9a<>res://.godot/imported/Soldier-Hurt.png-c12d6e44c332f1c383cdcd24a3251016.ctex::
+Soldier-Idle.png::CompressedTexture2D/CompressedTexture2D::4806060624855952416::1743418915::1743418915::1::::<><><>0<>0<>a0cb4898068f33dfac2cdf7aa3f3d36d<>res://.godot/imported/Soldier-Idle.png-e1489873998a1771559685e74ec5a6fd.ctex::
+Soldier-Walk.png::CompressedTexture2D/CompressedTexture2D::7311511599395715820::1743418915::1743418915::1::::<><><>0<>0<>0637b18c1f4d1c4d399810912ac5627e<>res://.godot/imported/Soldier-Walk.png-65a3fb2848facc2a12fb7879222c1a10.ctex::
+Soldier.png::CompressedTexture2D/CompressedTexture2D::6304223244653195877::1743418915::1743418915::1::::<><><>0<>0<>c7f0039148f7f3e0fe89c03a4f2e422b<>res://.godot/imported/Soldier.png-8e94318e195f2f9c09eb678a2636d72a.ctex::
+::res://Assets/Soldier/Soldier(Split Effects)/::1743418915
+Soldier-Attack01_Effect.png::CompressedTexture2D/CompressedTexture2D::408249425791523607::1743418915::1743418915::1::::<><><>0<>0<>399e358c17dd39b73b6cbd9de1cf529e<>res://.godot/imported/Soldier-Attack01_Effect.png-df8d7d0dcc3b44539ba88e6ad0656031.ctex::
+Soldier-Attack02_Effect.png::CompressedTexture2D/CompressedTexture2D::3065485796235968770::1743418915::1743418915::1::::<><><>0<>0<>8612719d6fff69ee0d400c9f6a5481ec<>res://.godot/imported/Soldier-Attack02_Effect.png-0be04fa3e3d3b28df8e0445ae14beb24.ctex::
+Soldier-Attack03_Effect.png::CompressedTexture2D/CompressedTexture2D::8342611827317458702::1743418915::1743418915::1::::<><><>0<>0<>785069d43466ab6cce1889f887a59039<>res://.godot/imported/Soldier-Attack03_Effect.png-f6602ef5f96479c2a6d490cb6af22009.ctex::
+Soldier.png::CompressedTexture2D/CompressedTexture2D::454002202675003281::1743418915::1743418915::1::::<><><>0<>0<>0c403dec5d40f6013c83eb1c44eb19de<>res://.godot/imported/Soldier.png-def5a89fb18fae535dd11b638693c693.ctex::
+::res://Nodos/::1743418915
+::res://Nodos/Player/::1743418915
+player.gd::GDScript::5942637383989215934::1743418915::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::5952215535666089850::1743418915::0::1::::<><><>0<>0<><>::uid://cqwwmteg6oaa5::::res://Nodos/Player/player.gd<>uid://cdgptfvcglhmw::::res://Assets/Soldier/Soldier/Soldier-Idle.png<>uid://dmbuub25s8u64::::res://Assets/Soldier/Soldier/Soldier-Walk.png
