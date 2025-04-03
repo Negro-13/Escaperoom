@@ -30,5 +30,6 @@ animations = [{
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(46, 35)
 sprite_frames = SubResource("SpriteFrames_ybfpn")
-frame_progress = 0.897911
+frame = 2
+frame_progress = 0.684688
 metadata/_edit_group_ = true
