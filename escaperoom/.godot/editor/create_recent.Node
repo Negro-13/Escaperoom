@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 StaticBody2D
 CollisionShape2D
+=======
+CollisionShape2D
+RigidBody2D
+AnimatedSprite2D
+CharacterBody2D
+>>>>>>> 1f87bb3f3682d141bbeef32d020f92d609f2e71b
 Node2D
 AnimatedSprite2D
 RigidBody2D

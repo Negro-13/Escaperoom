@@ -140,4 +140,4 @@ shape = SubResource("RectangleShape2D_qyleh")
 position = Vector2(129, -3)
 
 [node name="coin" parent="." instance=ExtResource("4_fcbfm")]
-position = Vector2(72, 43)
+position = Vector2(95, 40)

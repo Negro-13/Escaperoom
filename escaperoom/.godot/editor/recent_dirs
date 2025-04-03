@@ -1,7 +1,11 @@
 res://Nodos/Objetos
+<<<<<<< HEAD
 res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flag
 res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/keys
 res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin
+=======
+res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch
+>>>>>>> 1f87bb3f3682d141bbeef32d020f92d609f2e71b
 res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest
 res://Assets/Soldier/Soldier
 res://Nodos
