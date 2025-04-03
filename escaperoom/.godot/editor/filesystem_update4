@@ -1,6 +1,2 @@
-res://Nodos/Player/player.tscn
-res://character_body_2d.gd
-res://Nodos/Player/character_body_2d.tscn
+res://Nodos/Objetos/candle_stick_1.tscn
 res://Nodos/Player/character_body_2d.gd
-res://Nodos/Mapas/Mapa4.tscn
-res://Nodos/Objetos/candlesick_2.tscn

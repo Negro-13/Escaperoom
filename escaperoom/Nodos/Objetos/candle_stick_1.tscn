@@ -28,7 +28,7 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d2qp3"]
 size = Vector2(9, 8)
 
-[node name="CandleStick1" type="RigidBody2D"]
+[node name="CandleStick1" type="StaticBody2D"]
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
