@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://big6jqx3dvau6"]
 
-[ext_resource type="Texture2D" uid="uid://b1oqylte3nb3i" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_lbiw5"]
+[ext_resource type="Texture2D" uid="uid://cnwpia0yj0mna" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_lbiw5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0e48y"]
 texture = ExtResource("1_lbiw5")
