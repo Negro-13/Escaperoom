@@ -1,0 +1,14 @@
+# Archivos generados por el editor de Godot que cambian constantemente
+.godot/
+.import/
+
+# Caché del editor y del filesystem
+escaperoom/.godot/editor/*
+escaperoom/.godot/uid_cache.bin
+
+# Metadatos innecesarios
+*.cfg
+*.godot
+
+# Archivos de backup de Godot
+*.translation
