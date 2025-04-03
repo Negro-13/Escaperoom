@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-res://Nodos/Objetos/candlesick_2.tscn
-=======
->>>>>>> d0f1ff86ff65c3a36a64eb4de408ea12f0f400da
+res://Nodos/Player/player.tscn
+res://character_body_2d.gd
+res://Nodos/Player/character_body_2d.tscn
+res://Nodos/Player/character_body_2d.gd
 res://Nodos/Mapas/Mapa4.tscn
+res://Nodos/Objetos/candlesick_2.tscn
