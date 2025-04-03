@@ -109,7 +109,7 @@ texture = ExtResource("1_t84c2")
 [sub_resource type="TileSet" id="TileSet_epypp"]
 sources/0 = SubResource("TileSetAtlasSource_0e48y")
 
-[node name="Mapa" type="Node2D"]
+[node name="Mapa" type="StaticBody2D"]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 scale = Vector2(0.986604, 1.01991)

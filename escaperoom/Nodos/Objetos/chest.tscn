@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://df52jvbc3p7s0"]
+[gd_scene load_steps=8 format=3 uid="uid://df52jvbc3p7s0"]
 
 [ext_resource type="Texture2D" uid="uid://cx2ipogr8a33n" path="res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_3.png" id="1_qvaws"]
 [ext_resource type="Texture2D" uid="uid://8l2qxd3rbmo1" path="res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_1.png" id="2_mgkgi"]
@@ -34,10 +34,17 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="chest" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qvaws"]
+size = Vector2(12, 11)
+
+[node name="chest" type="StaticBody2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(36, 5)
 sprite_frames = SubResource("SpriteFrames_21q6t")
 animation = &"open"
 frame_progress = 0.594737
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(36, 5.5)
+shape = SubResource("RectangleShape2D_qvaws")
