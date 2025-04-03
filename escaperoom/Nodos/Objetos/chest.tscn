@@ -35,7 +35,11 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qvaws"]
+<<<<<<< HEAD
 size = Vector2(14, 11.5)
+=======
+size = Vector2(12, 11)
+>>>>>>> e008acd0235de456b4527b42905338ea39251dc4
 
 [node name="chest" type="StaticBody2D"]
 
@@ -43,6 +47,7 @@ size = Vector2(14, 11.5)
 position = Vector2(-18, 67)
 sprite_frames = SubResource("SpriteFrames_21q6t")
 animation = &"open"
+<<<<<<< HEAD
 frame_progress = 0.785714
 metadata/_edit_group_ = true
 
@@ -50,3 +55,10 @@ metadata/_edit_group_ = true
 position = Vector2(-18, 66)
 shape = SubResource("RectangleShape2D_qvaws")
 metadata/_edit_group_ = true
+=======
+frame_progress = 0.594737
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(36, 5.5)
+shape = SubResource("RectangleShape2D_qvaws")
+>>>>>>> e008acd0235de456b4527b42905338ea39251dc4

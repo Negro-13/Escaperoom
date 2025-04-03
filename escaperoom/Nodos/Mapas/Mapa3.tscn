@@ -111,12 +111,15 @@ texture = ExtResource("1_t84c2")
 [sub_resource type="TileSet" id="TileSet_epypp"]
 sources/0 = SubResource("TileSetAtlasSource_0e48y")
 
+<<<<<<< HEAD
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5vhlt"]
 size = Vector2(174, 16)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qyleh"]
 size = Vector2(15, 147)
 
+=======
+>>>>>>> e008acd0235de456b4527b42905338ea39251dc4
 [node name="Mapa" type="StaticBody2D"]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
