@@ -1,0 +1,72 @@
+[gd_scene load_steps=9 format=3 uid="uid://caxhsv0pgdtrh"]
+
+[ext_resource type="Texture2D" uid="uid://bpfb5p81su6gl" path="res://Assets/DampDungeonsRPGMakerMZ/Characters/Dungeon_ObjectBigdoor.png" id="1_7blus"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4brht"]
+atlas = ExtResource("1_7blus")
+region = Rect2(0, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6tggk"]
+atlas = ExtResource("1_7blus")
+region = Rect2(0, 64, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aavvc"]
+atlas = ExtResource("1_7blus")
+region = Rect2(0, 128, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g3kik"]
+atlas = ExtResource("1_7blus")
+region = Rect2(0, 192, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iq8sp"]
+atlas = ExtResource("1_7blus")
+region = Rect2(0, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rtc10"]
+atlas = ExtResource("1_7blus")
+region = Rect2(0, 192, 32, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jjoba"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4brht")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6tggk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aavvc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g3kik")
+}],
+"loop": true,
+"name": &"abriendo",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iq8sp")
+}],
+"loop": true,
+"name": &"close",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rtc10")
+}],
+"loop": true,
+"name": &"open",
+"speed": 5.0
+}]
+
+[node name="puerta_lados" type="StaticBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_jjoba")
+animation = &"open"
+frame_progress = 0.212743
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
