@@ -121,13 +121,13 @@ size = Vector2(9, 8)
 [node name="CharacterBody2D" type="CharacterBody2D"]
 position = Vector2(46, 26)
 script = ExtResource("1_edbiu")
-move_speed = 140.0
+move_speed = 70.0
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_xe5df")
 animation = &"idle"
-frame_progress = 0.338025
+frame_progress = 0.292308
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 3)
