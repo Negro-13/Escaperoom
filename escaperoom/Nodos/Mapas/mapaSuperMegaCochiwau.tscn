@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=4 uid="uid://c3npph4xbgh45"]
+[gd_scene load_steps=5 format=4 uid="uid://piemebqbry7r"]
 
 [ext_resource type="Texture2D" uid="uid://cnwpia0yj0mna" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_oi56o"]
 [ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="2_80r1g"]
