@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0mehl5tn01c6"]
+
+[ext_resource type="Texture2D" uid="uid://djgpx7ufgtavd" path="res://Assets/DampDungeons/Tiles/DungeonDecorations.png" id="1_fubbk"]
+[ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="2_t2c7v"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(255, 253)
+texture = ExtResource("1_fubbk")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_t2c7v")]
+position = Vector2(49, 89)
