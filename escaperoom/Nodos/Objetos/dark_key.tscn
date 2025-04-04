@@ -26,18 +26,19 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mui3v"]
-size = Vector2(11, 10)
+size = Vector2(11, 8)
 
 [node name="DarkKey" type="StaticBody2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(82, 56)
+position = Vector2(-1, 0)
 sprite_frames = SubResource("SpriteFrames_fgb56")
 animation = &"darkKey"
+autoplay = "darkKey"
 frame_progress = 0.826492
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(82.5, 56)
+position = Vector2(-0.5, 0)
 shape = SubResource("RectangleShape2D_mui3v")
 metadata/_edit_group_ = true

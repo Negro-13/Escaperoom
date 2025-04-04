@@ -31,12 +31,11 @@ radius = 5.0
 [node name="coin" type="StaticBody2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(52, 41)
 sprite_frames = SubResource("SpriteFrames_2m8aj")
+autoplay = "default"
 frame_progress = 0.520489
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(52, 41)
 shape = SubResource("CircleShape2D_d7fub")
 metadata/_edit_group_ = true
