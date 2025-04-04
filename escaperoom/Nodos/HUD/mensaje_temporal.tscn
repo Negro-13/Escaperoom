@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://b7x1dqwwa24tt"]
+
+[node name="Mensaje Temporal" type="Label"]
+visible = false
+text = "Mensaje Temporal"
+horizontal_alignment = 3
+vertical_alignment = 1
