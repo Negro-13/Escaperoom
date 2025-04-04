@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://cdwlct2ryvbyi"]
+[gd_scene load_steps=6 format=3 uid="uid://jsjknuagvy4s"]
 
 [ext_resource type="Texture2D" uid="uid://b551rrx2fkc7r" path="res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/side_torch_1.png" id="1_d0xgv"]
 [ext_resource type="Texture2D" uid="uid://b8f4t0vtfjbvb" path="res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/side_torch_2.png" id="2_7ho8c"]
@@ -9,10 +9,10 @@
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_d0xgv")
+"texture": ExtResource("2_7ho8c")
 }, {
 "duration": 1.0,
-"texture": ExtResource("2_7ho8c")
+"texture": ExtResource("1_d0xgv")
 }, {
 "duration": 1.0,
 "texture": ExtResource("3_gywhl")
@@ -30,4 +30,4 @@ animations = [{
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(8, -1)
 sprite_frames = SubResource("SpriteFrames_iyvs0")
-frame_progress = 0.594436
+frame_progress = 0.529805

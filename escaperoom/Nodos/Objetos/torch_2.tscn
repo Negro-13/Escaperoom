@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://dl0iv37ima1q5"]
+[gd_scene load_steps=6 format=3 uid="uid://b3cp3nlmleahf"]
 
 [ext_resource type="Texture2D" uid="uid://cxu0x8nfmunwo" path="res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_1.png" id="1_0b0wl"]
 [ext_resource type="Texture2D" uid="uid://cpi1vyiwl5tsm" path="res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_2.png" id="2_5llpd"]
