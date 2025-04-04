@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://d02inxgwdc5h5"]
+[gd_scene load_steps=7 format=3 uid="uid://d02inxgwdc5h5"]
 
 [ext_resource type="Texture2D" uid="uid://bhqdf7j5a0lqm" path="res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flag/flag_1.png" id="1_l0xjm"]
 [ext_resource type="Texture2D" uid="uid://6dp5saufdeat" path="res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flag/flag_2.png" id="2_0a3n0"]
@@ -25,11 +25,18 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Flag" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l0xjm"]
+size = Vector2(14, 5)
+
+[node name="Flag" type="StaticBody2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(46, 35)
 sprite_frames = SubResource("SpriteFrames_ybfpn")
+autoplay = "default"
 frame = 2
 frame_progress = 0.684688
 metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2.5)
+shape = SubResource("RectangleShape2D_l0xjm")

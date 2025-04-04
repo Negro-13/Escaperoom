@@ -72,7 +72,8 @@ position = Vector2(8.5, -8.01963)
 rotation = 1.5708
 scale = Vector2(2.03248, 1)
 sprite_frames = SubResource("SpriteFrames_iuo04")
-animation = &"close"
+animation = &"open_animation"
+frame_progress = 0.0602108
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(8.75, -8)

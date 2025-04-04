@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://b3cp3nlmleahf"]
+[gd_scene load_steps=8 format=3 uid="uid://b3cp3nlmleahf"]
 
 [ext_resource type="Texture2D" uid="uid://cxu0x8nfmunwo" path="res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_1.png" id="1_0b0wl"]
 [ext_resource type="Texture2D" uid="uid://cpi1vyiwl5tsm" path="res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/torch_2.png" id="2_5llpd"]
@@ -25,8 +25,24 @@ animations = [{
 "speed": 6.0
 }]
 
-[node name="Torch2" type="Node2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0b0wl"]
+size = Vector2(4, 6)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5llpd"]
+size = Vector2(8, 2)
+
+[node name="Torch2" type="StaticBody2D"]
+metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_00e6e")
+autoplay = "default"
 frame_progress = 0.934195
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_0b0wl")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_5llpd")

@@ -1,9 +1,17 @@
-[gd_scene load_steps=7 format=4 uid="uid://4unmhcarje2"]
+[gd_scene load_steps=15 format=4 uid="uid://4unmhcarje2"]
 
 [ext_resource type="Texture2D" uid="uid://cnwpia0yj0mna" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_mefnw"]
 [ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="2_c8ry2"]
 [ext_resource type="PackedScene" uid="uid://c1d6sqfobdrtj" path="res://Nodos/Objetos/candle_stick_1.tscn" id="3_xa7ce"]
 [ext_resource type="PackedScene" uid="uid://bwg2nj5ypjm6x" path="res://Nodos/Objetos/candlesick_2.tscn" id="4_ibw8n"]
+[ext_resource type="PackedScene" uid="uid://b3cp3nlmleahf" path="res://Nodos/Objetos/torch_2.tscn" id="5_ksw8o"]
+[ext_resource type="PackedScene" uid="uid://dsepu1vsg0qhp" path="res://Nodos/Objetos/gold_key.tscn" id="6_jntfd"]
+[ext_resource type="PackedScene" uid="uid://bpdwbbgjx8qwd" path="res://Nodos/Objetos/coin.tscn" id="6_v607t"]
+[ext_resource type="PackedScene" uid="uid://6rwm06td2yb7" path="res://Nodos/Objetos/dark_key.tscn" id="7_aff5v"]
+[ext_resource type="PackedScene" uid="uid://d02inxgwdc5h5" path="res://Nodos/Objetos/flag.tscn" id="8_sfh66"]
+[ext_resource type="PackedScene" uid="uid://bijpjtqh3cj2d" path="res://Nodos/Objetos/puerta_arriba.tscn" id="10_ke8v4"]
+[ext_resource type="PackedScene" uid="uid://caxhsv0pgdtrh" path="res://Nodos/Objetos/puerta_lados.tscn" id="11_nhui1"]
+[ext_resource type="PackedScene" uid="uid://jsjknuagvy4s" path="res://Nodos/Objetos/torch 1.tscn" id="12_ojs7s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0e48y"]
 texture = ExtResource("1_mefnw")
@@ -125,3 +133,33 @@ position = Vector2(111, 29)
 
 [node name="Candlesick2" parent="." instance=ExtResource("4_ibw8n")]
 position = Vector2(85, 10)
+
+[node name="Torch2" parent="." instance=ExtResource("5_ksw8o")]
+position = Vector2(-12, 75)
+
+[node name="Candlesick3" parent="." instance=ExtResource("4_ibw8n")]
+position = Vector2(9, 73)
+
+[node name="coin" parent="." instance=ExtResource("6_v607t")]
+position = Vector2(25, 82)
+
+[node name="DarkKey" parent="." instance=ExtResource("7_aff5v")]
+position = Vector2(-10, 93)
+
+[node name="Flag" parent="." instance=ExtResource("8_sfh66")]
+position = Vector2(10, 96)
+
+[node name="GoldKey" parent="." instance=ExtResource("6_jntfd")]
+position = Vector2(-24, 87)
+
+[node name="Puerta arriba" parent="." instance=ExtResource("10_ke8v4")]
+position = Vector2(120, 66)
+
+[node name="puerta_lados" parent="." instance=ExtResource("11_nhui1")]
+position = Vector2(127, 61)
+
+[node name="Antorcha1" parent="." instance=ExtResource("12_ojs7s")]
+position = Vector2(-8, 65)
+
+[node name="Torch3" parent="." instance=ExtResource("5_ksw8o")]
+position = Vector2(-1, 109)
