@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=4 uid="uid://4unmhcarje2"]
+[gd_scene load_steps=15 format=4 uid="uid://4unmhcarje2"]
 
 [ext_resource type="Texture2D" uid="uid://cnwpia0yj0mna" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_mefnw"]
 [ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="2_c8ry2"]
@@ -12,7 +12,6 @@
 [ext_resource type="PackedScene" uid="uid://bijpjtqh3cj2d" path="res://Nodos/Objetos/puerta_arriba.tscn" id="10_ke8v4"]
 [ext_resource type="PackedScene" uid="uid://caxhsv0pgdtrh" path="res://Nodos/Objetos/puerta_lados.tscn" id="11_nhui1"]
 [ext_resource type="PackedScene" uid="uid://jsjknuagvy4s" path="res://Nodos/Objetos/torch 1.tscn" id="12_ojs7s"]
-[ext_resource type="PackedScene" uid="uid://cg0bdd7dtnnfm" path="res://Nodos/Pistas/pistas_(area_2d).tscn" id="13_aff5v"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0e48y"]
 texture = ExtResource("1_mefnw")
@@ -164,6 +163,3 @@ position = Vector2(-8, 65)
 
 [node name="Torch3" parent="." instance=ExtResource("5_ksw8o")]
 position = Vector2(-1, 109)
-
-[node name="Pistas (Area 2d)" parent="." instance=ExtResource("13_aff5v")]
-position = Vector2(73, 52)
