@@ -758,13 +758,28 @@ script = ExtResource("1_btjng")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-24, -32.5)
+position = Vector2(133, 61)
 shape = SubResource("RectangleShape2D_k7ve7")
+metadata/_edit_group_ = true
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
+position = Vector2(157, 93.5)
 tile_map_data = PackedByteArray("AAD9//3/AAAGAAIAAAD9//7/AAAGAAMAAAD+//3/AAAHAAIAAAD+//7/AAAHAAMAAAD///3/AAAIAAIAAAD///7/AAAIAAMAAAA=")
 tile_set = SubResource("TileSet_5uvk2")
+metadata/_edit_group_ = true
 
 [node name="TileMapLayer2" type="TileMapLayer" parent="."]
+position = Vector2(157, 93.5)
 tile_map_data = PackedByteArray("AAD9//3/AAAXAAkAAAD+//3/AAAXAAkAAAD///7/AAAXAAoAAAD9//7/AAAXAAoAAAD+//7/AAAZAAgAAAA=")
 tile_set = SubResource("TileSet_ymq8m")
+metadata/_edit_group_ = true
+
+[node name="Label" type="Label" parent="."]
+offset_left = 113.0
+offset_top = 20.0
+offset_right = 153.0
+offset_bottom = 43.0
+text = "sds"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
