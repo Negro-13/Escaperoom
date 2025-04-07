@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 [gd_scene load_steps=23 format=4 uid="uid://c3npph4xbgh45"]
+=======
+[gd_scene load_steps=21 format=4 uid="uid://c3npph4xbgh45"]
+>>>>>>> c665d363569ece545825cfc703b2a593aa88a72c
 
 [ext_resource type="Texture2D" uid="uid://cnwpia0yj0mna" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_oi56o"]
 [ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="2_80r1g"]
 [ext_resource type="Texture2D" uid="uid://dbelnhafp6m7e" path="res://Assets/DampDungeonsRPGMakerMZ/Tilesets/Dungeon_DecorationsC.png" id="2_om2sm"]
 [ext_resource type="Texture2D" uid="uid://bkrbot4akfdnf" path="res://Assets/DampDungeonsRPGMakerMZ/Tilesets/Dungeon_FurnitureB.png" id="3_p7q0t"]
+<<<<<<< HEAD
 [ext_resource type="Texture2D" uid="uid://dujeox3oid0v5" path="res://Assets/DampDungeons/Animations/Dungeon_ObjectsBig.png" id="4_tqd4e"]
+=======
+>>>>>>> c665d363569ece545825cfc703b2a593aa88a72c
 [ext_resource type="Texture2D" uid="uid://dd550qkjdo2pd" path="res://Assets/DampDungeonsRPGMakerMZ/Tilesets/Dungeon_SandDecorationsC.png" id="6_crndm"]
 [ext_resource type="Texture2D" uid="uid://djgpx7ufgtavd" path="res://Assets/DampDungeons/Tiles/DungeonDecorations.png" id="7_tqd4e"]
 [ext_resource type="PackedScene" uid="uid://d02inxgwdc5h5" path="res://Nodos/Objetos/flag.tscn" id="8_sgeli"]
@@ -1559,7 +1566,37 @@ tile_set = SubResource("TileSet_up4p5")
 position = Vector2(312, -137)
 
 [node name="Flag2" parent="Mapas/Objetos" instance=ExtResource("8_sgeli")]
+<<<<<<< HEAD
 position = Vector2(376, -136)
+=======
+position = Vector2(330, -171)
+
+[node name="Antorcha1" parent="Mapas/Objetos"]
+_import_path = NodePath("")
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+position = Vector2(257, 94)
+script = null
+
+[node name="Antorcha4" parent="Mapas/Objetos"]
+_import_path = NodePath("")
+unique_name_in_owner = false
+process_mode = 0
+process_priority = 0
+process_physics_priority = 0
+process_thread_group = 0
+physics_interpolation_mode = 0
+auto_translate_mode = 0
+editor_description = ""
+position = Vector2(256, 173)
+script = null
+>>>>>>> c665d363569ece545825cfc703b2a593aa88a72c
 
 [node name="miniobjetos" type="TileMapLayer" parent="Mapas/Objetos"]
 tile_map_data = PackedByteArray("AAAWAPz/AAAHAAkAAAAWAAUAAAAIAAgAAAAGAAAAAwAEAAYAAAA=")
