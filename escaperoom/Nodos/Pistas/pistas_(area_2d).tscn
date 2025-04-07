@@ -780,6 +780,7 @@ offset_top = 20.0
 offset_right = 153.0
 offset_bottom = 43.0
 text = "sds"
+metadata/_edit_use_anchors_ = true
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="body_exited" from="." to="." method="_on_body_exited"]
