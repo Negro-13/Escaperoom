@@ -1,10 +1,14 @@
+NinePatchRect
+MarginContainer
 CollisionShape2D
+Label
+Area2D
 StaticBody2D
+Node2D
+Panel
+CanvasLayer
 TileMapLayer
 Camera2D
 AnimatedSprite2D
-Node2D
 CharacterBody2D
 RigidBody2D
-RigidBody2D
-Node

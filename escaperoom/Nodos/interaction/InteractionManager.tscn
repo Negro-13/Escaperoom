@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfqxer8ylmsqg"]
+
+[ext_resource type="Script" uid="uid://b2t08x0fm7uww" path="res://Nodos/interaction/interaction_manager.gd" id="1_8tlbo"]
+[ext_resource type="FontFile" uid="uid://b73n31160qu6n" path="res://Assets/Fonts/Pokemon Classic.ttf" id="1_f6o0m"]
+
+[node name="InteractionManager" type="Node2D"]
+script = ExtResource("1_8tlbo")
+
+[node name="Label" type="Label" parent="."]
+z_index = 20
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -52.5
+offset_right = 52.5
+offset_bottom = 23.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("1_f6o0m")
+text = "[E] to interact"
+horizontal_alignment = 1
+vertical_alignment = 1

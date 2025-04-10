@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://6gpnwgpqj4o1"]
+
+[ext_resource type="Texture2D" uid="uid://blnxs1f4jjg1e" path="res://Nodos/text box/textbox_dialog.png" id="1_y8hw4"]
+
+[node name="TextBox" type="MarginContainer"]
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_y8hw4")
+region_rect = Rect2(-0.120438, 5.14783, 32.1204, 13.7965)
+metadata/_edit_group_ = true
+
+[node name="TextboxDialog" type="Sprite2D" parent="."]
+position = Vector2(575.75, 446)
+scale = Vector2(35.8906, 40.207)
+texture = ExtResource("1_y8hw4")
