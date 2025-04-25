@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=4 uid="uid://c7f5s57n3mef6"]
 
 [ext_resource type="Texture2D" uid="uid://cnwpia0yj0mna" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_qblkc"]
-[ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="2_634yq"]
+[ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/Player.tscn" id="2_634yq"]
 [ext_resource type="PackedScene" uid="uid://c1d6sqfobdrtj" path="res://Nodos/Objetos/candle_stick_1.tscn" id="3_swhb7"]
 [ext_resource type="PackedScene" uid="uid://bwg2nj5ypjm6x" path="res://Nodos/Objetos/candlesick_2.tscn" id="4_f8703"]
 [ext_resource type="PackedScene" uid="uid://b3cp3nlmleahf" path="res://Nodos/Objetos/torch_2.tscn" id="5_swhb7"]

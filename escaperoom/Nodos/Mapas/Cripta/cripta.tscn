@@ -17,7 +17,7 @@
 [ext_resource type="PackedScene" uid="uid://jsjknuagvy4s" path="res://Nodos/Objetos/torch 1.tscn" id="17_5fuan"]
 [ext_resource type="PackedScene" uid="uid://c1d6sqfobdrtj" path="res://Nodos/Objetos/candle_stick_1.tscn" id="18_0kl0m"]
 [ext_resource type="Script" uid="uid://b6oukr8idomj8" path="res://Nodos/Mapas/Cripta/puerta_cripta.gd" id="18_1c42w"]
-[ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="19_wsxa6"]
+[ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/Player.tscn" id="19_wsxa6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_80r1g"]
 texture = ExtResource("1_7bx7v")

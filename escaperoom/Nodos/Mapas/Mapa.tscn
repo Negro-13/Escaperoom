@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://butbf3vib783e" path="res://Assets/DampDungeonsRPGMakerMZ/Tilesets/Dungeon_FloorsA2.png" id="1_eo6pb"]
 [ext_resource type="Texture2D" uid="uid://dvrp0x3vsoohk" path="res://Assets/DampDungeonsRPGMakerMZ/Tilesets/Dungeon_FloorsWallsA5.png" id="2_xebki"]
-[ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="3_5g3uw"]
+[ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/Player.tscn" id="3_5g3uw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f4hc5"]
 texture = ExtResource("1_eo6pb")
