@@ -2,13 +2,7 @@ extends CharacterBody2D
 
 @export var move_speed: float
 var mira_dercha = true
-@onready var interactaction_area: InteractionArea = $InteractionArea
 @onready var animated_sprite = $AnimatedSprite2D
-
-
-func _ready():
-	interactaction_area.interact = Callable(self, "_on_interact")
-
 
 func _physics_process(delta):
 	# movimiento
@@ -29,4 +23,5 @@ func update_animations():
 	if (velocity.x) or (velocity.y):
 		animated_sprite.play("run")
 	else:
-		animated_sprite.play("idle")		
+		animated_sprite.play("idle")
+	

@@ -1,21 +1,22 @@
-[gd_scene load_steps=42 format=4 uid="uid://dm0ci7ybr42vd"]
+[gd_scene load_steps=51 format=4 uid="uid://dm0ci7ybr42vd"]
 
 [ext_resource type="Texture2D" uid="uid://cnwpia0yj0mna" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_7bx7v"]
-[ext_resource type="Texture2D" uid="uid://dceawteto1kq7" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tiles.png" id="2_06hyt"]
+[ext_resource type="Texture2D" uid="uid://csm1idenagh6y" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tiles.png" id="2_06hyt"]
 [ext_resource type="Texture2D" uid="uid://bkrbot4akfdnf" path="res://Assets/DampDungeonsRPGMakerMZ/Tilesets/Dungeon_FurnitureB.png" id="3_en5de"]
-[ext_resource type="Texture2D" uid="uid://b3sqsqdkwm8eo" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Estructure.png" id="4_usjwk"]
+[ext_resource type="Texture2D" uid="uid://drelgxtjcvwhy" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Estructure.png" id="4_usjwk"]
 [ext_resource type="Texture2D" uid="uid://dbelnhafp6m7e" path="res://Assets/DampDungeonsRPGMakerMZ/Tilesets/Dungeon_DecorationsC.png" id="5_2oc26"]
 [ext_resource type="Texture2D" uid="uid://dujeox3oid0v5" path="res://Assets/DampDungeons/Animations/Dungeon_ObjectsBig.png" id="6_amjph"]
 [ext_resource type="Texture2D" uid="uid://dq1qmw3og1d5o" path="res://Assets/DampDungeons/Animations/Dungeon_ObjectBigdoor.png" id="7_j00qt"]
 [ext_resource type="Texture2D" uid="uid://2r5r4t52mid2" path="res://Assets/DampDungeons/Animations/Dungeon_ObjectsDungeon.png" id="8_0xgjo"]
-[ext_resource type="Texture2D" uid="uid://dkj2babt8d3k7" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Anvil_01-Sheet.png" id="9_5o2v6"]
-[ext_resource type="Texture2D" uid="uid://ca0qrx5ra2k4i" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Workbench.png" id="10_yfpqi"]
-[ext_resource type="Texture2D" uid="uid://2bbyeq32b0i" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Iron_03-Sheet.png" id="11_y8iwk"]
+[ext_resource type="Texture2D" uid="uid://iavttvfvhdwb" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Anvil_01-Sheet.png" id="9_5o2v6"]
+[ext_resource type="Texture2D" uid="uid://txooh2mimmda" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Workbench.png" id="10_yfpqi"]
+[ext_resource type="Texture2D" uid="uid://de4o8qkjqo1o7" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Iron_03-Sheet.png" id="11_y8iwk"]
 [ext_resource type="Texture2D" uid="uid://dd550qkjdo2pd" path="res://Assets/DampDungeonsRPGMakerMZ/Tilesets/Dungeon_SandDecorationsC.png" id="13_bjj7q"]
 [ext_resource type="Texture2D" uid="uid://djgpx7ufgtavd" path="res://Assets/DampDungeons/Tiles/DungeonDecorations.png" id="14_hl0vm"]
 [ext_resource type="PackedScene" uid="uid://b3cp3nlmleahf" path="res://Nodos/Objetos/torch_2.tscn" id="16_jc23t"]
 [ext_resource type="PackedScene" uid="uid://jsjknuagvy4s" path="res://Nodos/Objetos/torch 1.tscn" id="17_5fuan"]
 [ext_resource type="PackedScene" uid="uid://c1d6sqfobdrtj" path="res://Nodos/Objetos/candle_stick_1.tscn" id="18_0kl0m"]
+[ext_resource type="Script" uid="uid://b6oukr8idomj8" path="res://Nodos/Mapas/Cripta/puerta_cripta.gd" id="18_1c42w"]
 [ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="19_wsxa6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_80r1g"]
@@ -2912,6 +2913,69 @@ texture = ExtResource("6_amjph")
 sources/0 = SubResource("TileSetAtlasSource_syi6t")
 sources/2 = SubResource("TileSetAtlasSource_xhey7")
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_7bx7v"]
+atlas = ExtResource("7_j00qt")
+region = Rect2(0, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_06hyt"]
+atlas = ExtResource("7_j00qt")
+region = Rect2(0, 192, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_en5de"]
+atlas = ExtResource("7_j00qt")
+region = Rect2(0, 0, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_usjwk"]
+atlas = ExtResource("7_j00qt")
+region = Rect2(0, 64, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2oc26"]
+atlas = ExtResource("7_j00qt")
+region = Rect2(0, 128, 32, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_amjph"]
+atlas = ExtResource("7_j00qt")
+region = Rect2(0, 192, 32, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_j00qt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7bx7v")
+}],
+"loop": true,
+"name": &"close",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_06hyt")
+}],
+"loop": true,
+"name": &"open",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_en5de")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_usjwk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2oc26")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_amjph")
+}],
+"loop": false,
+"name": &"opening",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0xgjo"]
+size = Vector2(30, 45)
+
 [node name="Cripta" type="Node2D"]
 
 [node name="Mapas" type="TileMapLayer" parent="."]
@@ -2933,7 +2997,6 @@ tile_map_data = PackedByteArray("AAABAPb/AAAXAAcAAAD7//b/AAAXAAcAAAD7//f/AAAXAAg
 tile_set = SubResource("TileSet_sgeli")
 
 [node name="Torch2" parent="Mapas/Objetos" instance=ExtResource("16_jc23t")]
-z_index = 0
 z_as_relative = false
 y_sort_enabled = true
 position = Vector2(61, -121)
@@ -2947,6 +3010,25 @@ position = Vector2(-87, -134)
 [node name="Antorcha4" parent="Mapas/Objetos" instance=ExtResource("17_5fuan")]
 position = Vector2(-272, -49)
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("19_wsxa6")]
+[node name="Puerta cripta" type="Area2D" parent="."]
+position = Vector2(-38, -253)
+script = ExtResource("18_1c42w")
+next_scene_path = "res://Nodos/Mapas/Arsenal/arsenal.tscn"
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Puerta cripta"]
+sprite_frames = SubResource("SpriteFrames_j00qt")
+animation = &"opening"
+autoplay = "close"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Puerta cripta"]
+position = Vector2(0, 7.5)
+shape = SubResource("RectangleShape2D_0xgjo")
+
+[node name="Timer" type="Timer" parent="Puerta cripta"]
+
+[node name="Player" parent="." instance=ExtResource("19_wsxa6")]
 y_sort_enabled = true
-position = Vector2(54, -113)
+position = Vector2(-38, -208)
+
+[connection signal="body_entered" from="Puerta cripta" to="Puerta cripta" method="_on_body_entered"]
