@@ -3,6 +3,7 @@ extends CharacterBody2D
 @export var move_speed: float
 var mira_dercha = true
 @onready var animated_sprite = $AnimatedSprite2D
+@onready var actionable_finder = $Direction/ActionableFinder
 
 func _physics_process(delta):
 	# movimiento
@@ -24,4 +25,12 @@ func update_animations():
 		animated_sprite.play("run")
 	else:
 		animated_sprite.play("idle")
+
+func _unhandled_input(event: InputEvent) -> void:
+	if Input.is_action_just_pressed("ui_accept"):
+		var actionables = actionable_finder.get_overlapping_areas()
+		if actionables.size() > 0:
+			actionables[0].action()
+			return
+		
 	

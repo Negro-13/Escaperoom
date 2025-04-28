@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=4 uid="uid://4unmhcarje2"]
+[gd_scene load_steps=19 format=4 uid="uid://4unmhcarje2"]
 
 [ext_resource type="Texture2D" uid="uid://cnwpia0yj0mna" path="res://Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png" id="1_mefnw"]
 [ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="2_c8ry2"]
@@ -13,6 +13,8 @@
 [ext_resource type="PackedScene" uid="uid://caxhsv0pgdtrh" path="res://Nodos/Objetos/puerta_lados.tscn" id="11_nhui1"]
 [ext_resource type="PackedScene" uid="uid://jsjknuagvy4s" path="res://Nodos/Objetos/torch 1.tscn" id="12_ojs7s"]
 [ext_resource type="PackedScene" uid="uid://cg0bdd7dtnnfm" path="res://Nodos/Pistas/pistas_(area_2d).tscn" id="13_aff5v"]
+[ext_resource type="PackedScene" uid="uid://8k0b2ehagqir" path="res://helpers/actionable.tscn" id="14_nhui1"]
+[ext_resource type="Resource" uid="uid://cifmcj5alugxp" path="res://dialogue/main.dialogue" id="16_a8tcf"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0e48y"]
 texture = ExtResource("1_mefnw")
@@ -120,6 +122,9 @@ texture = ExtResource("1_mefnw")
 [sub_resource type="TileSet" id="TileSet_epypp"]
 sources/0 = SubResource("TileSetAtlasSource_0e48y")
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_ati34"]
+radius = 34.2053
+
 [node name="Mapa" type="Node2D"]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
@@ -127,7 +132,7 @@ tile_map_data = PackedByteArray("AAD9/wEAAAAAAAMAAAD+/wAAAAABAAIAAAD//wAAAAACAAI
 tile_set = SubResource("TileSet_epypp")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_c8ry2")]
-position = Vector2(154, 182)
+position = Vector2(169, 196)
 collision_layer = 2
 
 [node name="CandleStick1" parent="." instance=ExtResource("3_xa7ce")]
@@ -170,3 +175,10 @@ position = Vector2(-1, 109)
 position = Vector2(97, 119)
 collision_layer = 0
 collision_mask = 2
+
+[node name="Actionable" parent="Pistas (Area 2d)" instance=ExtResource("14_nhui1")]
+dialogue_resource = ExtResource("16_a8tcf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pistas (Area 2d)/Actionable"]
+position = Vector2(134, 59)
+shape = SubResource("CircleShape2D_ati34")

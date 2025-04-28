@@ -1,0 +1,17 @@
+~ start
+
+God: A book
+if State.library_status == "has":
+	Player: I have a book[wait=1]
+	- Give to library[wait=1]
+		set Status.library_status = "gave"
+		Player: Here you go
+		God: Thanks
+	- Keep it
+		Player: But it's nine
+		God: Fair enough
+elif State.library_status == "gave"
+	God: Thanks again for the book
+else:
+	God: I sure wish I had a book. Apparently there's a book around here somewhere 
+=> END

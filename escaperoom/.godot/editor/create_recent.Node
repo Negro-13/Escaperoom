@@ -1,7 +1,8 @@
-AnimatedSprite2D
-Area2D
-Timer
 CollisionShape2D
+Area2D
+Marker2D
+AnimatedSprite2D
+Timer
 TileMap
 StaticBody2D
 NinePatchRect
@@ -11,4 +12,3 @@ Node2D
 Panel
 CanvasLayer
 TileMapLayer
-Camera2D
