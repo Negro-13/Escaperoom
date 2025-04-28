@@ -1,4 +1,8 @@
+res://Assets/Personajes
+res://Assets/Personajes/Orc/Orc
 res://Assets
+res://Assets/Personajes/Soldado azul
+res://Nodos/Mapas/Pruebas
 res://Assets/DampDungeons/Animations
 res://Assets/Pixel Crawler - Free Pack/Environment/Tilesets
 res://Assets/DampDungeonsRPGMakerMZ/Tilesets
@@ -8,7 +12,6 @@ res://Nodos/Objetos
 res://Assets/DampDungeonsRPGMakerMZ/Characters
 res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch
 res://Nodos
-res://Assets/Soldier/Soldier
 res://Nodos/Mapas
 <<<<<<< HEAD
 res://Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flag

@@ -2996,7 +2996,7 @@ tile_set = SubResource("TileSet_sgeli")
 
 [node name="Player" parent="." instance=ExtResource("19_pvkye")]
 y_sort_enabled = true
-position = Vector2(-65, -252)
+position = Vector2(-63, -242)
 
 [node name="PuertaArsenal" type="Area2D" parent="."]
 position = Vector2(-30, -201)
