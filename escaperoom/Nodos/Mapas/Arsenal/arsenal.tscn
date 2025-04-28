@@ -14,7 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://dd550qkjdo2pd" path="res://Assets/DampDungeonsRPGMakerMZ/Tilesets/Dungeon_SandDecorationsC.png" id="13_j8o2x"]
 [ext_resource type="Texture2D" uid="uid://djgpx7ufgtavd" path="res://Assets/DampDungeons/Tiles/DungeonDecorations.png" id="14_75ncr"]
 [ext_resource type="Script" uid="uid://ybem8xcokhvk" path="res://Nodos/Mapas/Arsenal/puerta_arsenal.gd" id="15_bducu"]
-[ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="19_pvkye"]
+[ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/Player.tscn" id="19_pvkye"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_80r1g"]
 texture = ExtResource("1_suc8r")
@@ -2996,7 +2996,7 @@ tile_set = SubResource("TileSet_sgeli")
 
 [node name="Player" parent="." instance=ExtResource("19_pvkye")]
 y_sort_enabled = true
-position = Vector2(-65, -252)
+position = Vector2(-63, -242)
 
 [node name="PuertaArsenal" type="Area2D" parent="."]
 position = Vector2(-30, -201)

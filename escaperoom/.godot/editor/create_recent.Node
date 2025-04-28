@@ -1,8 +1,17 @@
 CollisionShape2D
+<<<<<<< HEAD
 Area2D
 Marker2D
 AnimatedSprite2D
 Timer
+=======
+AnimatedSprite2D
+CharacterBody2D
+Timer
+Node
+TileMapLayer
+Area2D
+>>>>>>> f54a87450937f2f4b8c826855117fcf861659da3
 TileMap
 StaticBody2D
 NinePatchRect
@@ -10,5 +19,8 @@ MarginContainer
 Label
 Node2D
 Panel
+<<<<<<< HEAD
 CanvasLayer
 TileMapLayer
+=======
+>>>>>>> f54a87450937f2f4b8c826855117fcf861659da3

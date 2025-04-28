@@ -16,7 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://b3cp3nlmleahf" path="res://Nodos/Objetos/torch_2.tscn" id="14_mq5th"]
 [ext_resource type="PackedScene" uid="uid://c1d6sqfobdrtj" path="res://Nodos/Objetos/candle_stick_1.tscn" id="15_g7n7v"]
 [ext_resource type="PackedScene" uid="uid://jsjknuagvy4s" path="res://Nodos/Objetos/torch 1.tscn" id="16_7b57g"]
-[ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/character_body_2d.tscn" id="17_4cnfl"]
+[ext_resource type="PackedScene" uid="uid://qlyf1d28to1v" path="res://Nodos/Player/Player.tscn" id="17_4cnfl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_80r1g"]
 texture = ExtResource("1_5fcdj")
